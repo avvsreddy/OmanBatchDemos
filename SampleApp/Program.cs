@@ -1,8 +1,8 @@
 ﻿namespace SampleApp
 {
-    internal class Program
+    internal class Program // UI Class
     {
-        static void Main(string[] args)
+        static void Main(string[] args) // UI Layer Code
         {
             // accept two int numbers and find the sum - console app
 
@@ -18,12 +18,14 @@
             sno = int.Parse(Console.ReadLine());
 
             // Step 3: find the sum
-            sum = fno + sno;
-
+            //sum = fno + sno; // BL
+            sum = SimpleMathCalculator.Calculator.FindSum(fno, sno);
             // Step 4: Display the result
             Console.WriteLine($"The sum of {fno} and {sno} is {sum}");
 
 
         }
+
+
     }
 }
