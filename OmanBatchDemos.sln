@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs and References", "Labs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabsAndRef", "LabsAndRef\LabsAndRef.csproj", "{7CFA7A2D-54E4-47B4-AF1F-37B35E506760}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OO Programming", "OO Programming", "{ABC814C5-0626-45BB-BD7C-61C5ACCB3783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOProgrammingDemo", "OOProgrammingDemo\OOProgrammingDemo.csproj", "{EEA9F841-A5BF-4FC2-A4BB-FD51CFFA7D6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{7CFA7A2D-54E4-47B4-AF1F-37B35E506760}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CFA7A2D-54E4-47B4-AF1F-37B35E506760}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CFA7A2D-54E4-47B4-AF1F-37B35E506760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA9F841-A5BF-4FC2-A4BB-FD51CFFA7D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA9F841-A5BF-4FC2-A4BB-FD51CFFA7D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA9F841-A5BF-4FC2-A4BB-FD51CFFA7D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA9F841-A5BF-4FC2-A4BB-FD51CFFA7D6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +63,7 @@ Global
 		{B43E2CFB-A265-4838-A3B7-5319E0118056} = {8163B61D-FC3E-4384-BE68-3F2AAE829B72}
 		{FC602FE5-BA80-4035-B1F9-4D973DCEB6F4} = {8674CFFF-5B65-49B7-8398-91592A36A2F4}
 		{7CFA7A2D-54E4-47B4-AF1F-37B35E506760} = {96917E17-C19C-4AA2-BB5D-9F93CCFC7892}
+		{EEA9F841-A5BF-4FC2-A4BB-FD51CFFA7D6A} = {ABC814C5-0626-45BB-BD7C-61C5ACCB3783}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA13B4CC-3821-4F57-9D61-439614F9D82E}
