@@ -4,18 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Employee e = new Employee();
-            e.Name = "sdsdfsd";
-            e.Salary = -1000;
-            Console.WriteLine(e.Salary);
 
+            // Object Initialization Syntax
 
             Product p1 = new Product();
+            int pid = 444;
+            Product p2 = new Product { ProductID = pid, Name = "IPhone" };
+            Product p3 = new Product { ProductID = 333, Name = "IPhone 14", Rate = 999999 };
+
+            Product p4 = new Product { Name = "I Phone" };
+
             p1.ProductID = 1;
-            p1.Name = "IPhone 14 Pro";
-            p1.Rate = 1000;
-            p1.Year = 2023;
-            p1.Model = "Smart Phone";
+            p1.Name = "IPhone";
+            p1.Rate = 100000;
+            Console.WriteLine(p1.Name);
 
 
         }
@@ -58,6 +60,49 @@
 
     class Product
     {
+
+        //public Product()
+        //{
+
+        //}
+        //public Product(int productID)
+        //{
+        //    ProductID = productID;
+
+        //}
+
+        //public Product(int pid, string pname) : this(pid)
+        //{
+        //    //ProductID = pid;
+        //    Name = pname;
+        //}
+
+        //public Product(int pid, string name, int rate) : this(pid, name)
+        //{
+        //    //ProductID = pid;
+        //    //Name = name;
+        //    Rate = rate;
+        //}
+
+        //public Product(int productID, string name, int rate, string model) : this(productID, name, rate)
+        //{
+        //    //ProductID = productID;
+        //    //Name = name;
+        //    //Rate = rate;
+        //    Model = model;
+        //}
+
+        //public Product(int productID, string name, int rate, string model, string country) : this(productID, name, rate, model)
+        //{
+        //    Country = country;
+        //}
+
+        //public Product(int productID, string name, int rate, string model, string country, int year) : this(productID, name, rate, model, country)
+        //{
+        //    Year = year;
+        //}
+
+
         public int ProductID { get; set; }
         public string Name { get; set; }
         public int Rate { get; set; }
