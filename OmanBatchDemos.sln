@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp", "SampleApp\SampleApp.csproj", "{C51B1A86-4222-428A-B8A1-AB5EB7572B54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMathCalculator", "SimpleMathCalculator\SimpleMathCalculator.csproj", "{AB76F1C2-9BA3-41A2-97F8-F3720516E4A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMathCalculator", "SimpleMathCalculator\SimpleMathCalculator.csproj", "{AB76F1C2-9BA3-41A2-97F8-F3720516E4A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{8674CFFF-5B65-49B7-8398-91592A36A2F4}"
 EndProject
@@ -13,27 +13,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{B43E2CFB-A265-4838-A3B7-5319E0118056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMathCalculatorDesktopApp", "SimpleMathCalculatorDesktopApp\SimpleMathCalculatorDesktopApp.csproj", "{FC602FE5-BA80-4035-B1F9-4D973DCEB6F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMathCalculatorDesktopApp", "SimpleMathCalculatorDesktopApp\SimpleMathCalculatorDesktopApp.csproj", "{FC602FE5-BA80-4035-B1F9-4D973DCEB6F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multi Layered App Demo", "Multi Layered App Demo", "{8163B61D-FC3E-4384-BE68-3F2AAE829B72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs and References", "Labs and References", "{96917E17-C19C-4AA2-BB5D-9F93CCFC7892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabsAndRef", "LabsAndRef\LabsAndRef.csproj", "{7CFA7A2D-54E4-47B4-AF1F-37B35E506760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabsAndRef", "LabsAndRef\LabsAndRef.csproj", "{7CFA7A2D-54E4-47B4-AF1F-37B35E506760}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OO Programming", "OO Programming", "{ABC814C5-0626-45BB-BD7C-61C5ACCB3783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOProgrammingDemo", "OOProgrammingDemo\OOProgrammingDemo.csproj", "{EEA9F841-A5BF-4FC2-A4BB-FD51CFFA7D6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOProgrammingDemo", "OOProgrammingDemo\OOProgrammingDemo.csproj", "{EEA9F841-A5BF-4FC2-A4BB-FD51CFFA7D6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysDemo", "ArraysDemo\ArraysDemo.csproj", "{ACF825C2-2F3E-4FA9-951C-8AA44A7F2A87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysDemo", "ArraysDemo\ArraysDemo.csproj", "{ACF825C2-2F3E-4FA9-951C-8AA44A7F2A87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicCollectionsDemo1", "DynamicCollectionsDemo1\DynamicCollectionsDemo1.csproj", "{6884E5B4-D831-4589-B63A-A5D254FC1671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicCollectionsDemo1", "DynamicCollectionsDemo1\DynamicCollectionsDemo1.csproj", "{6884E5B4-D831-4589-B63A-A5D254FC1671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicCollectionsDemo2", "DynamicCollectionsDemo2\DynamicCollectionsDemo2.csproj", "{976B6EEE-F991-45EF-915F-97CA968B96BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicCollectionsDemo2", "DynamicCollectionsDemo2\DynamicCollectionsDemo2.csproj", "{976B6EEE-F991-45EF-915F-97CA968B96BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArray3", "DynamicArray3\DynamicArray3.csproj", "{6676975F-5708-47BB-AAAA-82ED72B9A710}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicArray3", "DynamicArray3\DynamicArray3.csproj", "{6676975F-5708-47BB-AAAA-82ED72B9A710}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainerTraineeCasestudy", "TrainerTraineeCasestudy\TrainerTraineeCasestudy.csproj", "{1C52F095-9437-4E52-87A2-83B263A6057A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainerTraineeCasestudy", "TrainerTraineeCasestudy\TrainerTraineeCasestudy.csproj", "{1C52F095-9437-4E52-87A2-83B263A6057A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo1", "InheritanceDemo1\InheritanceDemo1.csproj", "{5C782C2B-FCFB-41C0-BB2E-892550564F8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{1C52F095-9437-4E52-87A2-83B263A6057A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C52F095-9437-4E52-87A2-83B263A6057A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C52F095-9437-4E52-87A2-83B263A6057A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C782C2B-FCFB-41C0-BB2E-892550564F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C782C2B-FCFB-41C0-BB2E-892550564F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C782C2B-FCFB-41C0-BB2E-892550564F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C782C2B-FCFB-41C0-BB2E-892550564F8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +105,7 @@ Global
 		{976B6EEE-F991-45EF-915F-97CA968B96BD} = {ABC814C5-0626-45BB-BD7C-61C5ACCB3783}
 		{6676975F-5708-47BB-AAAA-82ED72B9A710} = {ABC814C5-0626-45BB-BD7C-61C5ACCB3783}
 		{1C52F095-9437-4E52-87A2-83B263A6057A} = {ABC814C5-0626-45BB-BD7C-61C5ACCB3783}
+		{5C782C2B-FCFB-41C0-BB2E-892550564F8D} = {ABC814C5-0626-45BB-BD7C-61C5ACCB3783}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA13B4CC-3821-4F57-9D61-439614F9D82E}
