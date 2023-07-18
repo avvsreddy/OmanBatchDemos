@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDELanguagesCasestudy", "ID
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDELanguagesCasestudy2", "IDELanguagesCasestudy2\IDELanguagesCasestudy2.csproj", "{74C24991-9F39-4FE5-B718-8BADF5204C05}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exception Handling", "Exception Handling", "{895490BF-B445-48B1-BCE4-933C8187C55D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandlingDemo1", "ExceptionHandlingDemo1\ExceptionHandlingDemo1.csproj", "{78F8BA4D-2A0F-4CBC-95D5-72F14555BBD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,10 @@ Global
 		{74C24991-9F39-4FE5-B718-8BADF5204C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74C24991-9F39-4FE5-B718-8BADF5204C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74C24991-9F39-4FE5-B718-8BADF5204C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F8BA4D-2A0F-4CBC-95D5-72F14555BBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F8BA4D-2A0F-4CBC-95D5-72F14555BBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F8BA4D-2A0F-4CBC-95D5-72F14555BBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F8BA4D-2A0F-4CBC-95D5-72F14555BBD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +135,7 @@ Global
 		{D1D10614-23C6-45E6-B6AE-44115ADB8832} = {ABC814C5-0626-45BB-BD7C-61C5ACCB3783}
 		{0043C7C9-1E7E-46DC-8992-7D87BC7C3792} = {ABC814C5-0626-45BB-BD7C-61C5ACCB3783}
 		{74C24991-9F39-4FE5-B718-8BADF5204C05} = {ABC814C5-0626-45BB-BD7C-61C5ACCB3783}
+		{78F8BA4D-2A0F-4CBC-95D5-72F14555BBD4} = {895490BF-B445-48B1-BCE4-933C8187C55D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA13B4CC-3821-4F57-9D61-439614F9D82E}
