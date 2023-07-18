@@ -1,4 +1,6 @@
-﻿namespace ExceptionHandlingDemo1
+﻿using Serilog;
+
+namespace ExceptionHandlingDemo1
 {
     internal class Program
     {
@@ -74,7 +76,7 @@
             {
                 try
                 {
-                    //DBManager.Save($"The sum of {a} and {b} is {a + b}");
+                    DBManager.Save($"The sum of {a} and {b} is {a + b}");
                     return a + b;
                 }
                 catch (Exception ex)
@@ -82,7 +84,10 @@
                     //log the exp
                     // serilog, nlog, log4net ......
 
-                    File.WriteAllText("e:logs/log.txt", "Unable to save data into db");
+                    //File.WriteAllText("e:logs/log.txt", "Unable to save data into db");
+                    // using serilog for log
+                    Log.Logger = new LoggerConfiguration().WriteTo.File("errors.log").CreateLogger();
+                    Log.Information("Unable to save data, logged from serilog");
                     throw ex;
                 }
             }
