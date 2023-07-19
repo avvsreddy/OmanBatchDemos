@@ -8,16 +8,47 @@ namespace DelegatesCaseStudy1
         {
             //Console.WriteLine("Application of delegates in real world");
             // Client 1 : display all running processes
-            //ProcessManager.ShowProcessList();
+            ProcessManager.ShowProcessList(x => true);
 
             // Client 2 : display all running process names starts with S
             //ProcessManager.ShowProcessList("Se");
             ProcessManager.ShowProcessList(FilterByName);
 
+            // Anonymous Delegates
+            ProcessManager.ShowProcessList(delegate (Process p)
+                {
+                    return p.ProcessName.StartsWith("Se");
+                }
+            );
+
+            // Lambda -  Light Weight Syntax for Anonymous Delegates
+
+            // Lambda Statements
+            ProcessManager.ShowProcessList((Process p) =>
+            {
+                return p.ProcessName.StartsWith("Se");
+            }
+            );
+
+            // Lambda Expression 1
+            ProcessManager.ShowProcessList((Process p) =>
+
+                p.ProcessName.StartsWith("Se")
+
+            );
+
+            // Lambda Expression 2
+            ProcessManager.ShowProcessList(p => p.ProcessName.StartsWith("Se"));
+
             // Client 3 : Display all huge processes (Memory rise bigger than 100MB)
             //ProcessManager.ShowProcessList(100 * 1024 * 1024);
             //FilterDelegate filter = new FilterDelegate(FilterByMemSize);
             //ProcessManager.ShowProcessList(filter);
+
+            ProcessManager.ShowProcessList(p => p.WorkingSet64 >= 100 * 1024 * 1024);
+
+
+
         }
 
         // Cleint 3 delegate method
