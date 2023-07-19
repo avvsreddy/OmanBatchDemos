@@ -86,6 +86,7 @@ namespace ExceptionHandlingDemo1
 
                     //File.WriteAllText("e:logs/log.txt", "Unable to save data into db");
                     // using serilog for log
+                    // install nuget package - Serilog.Sinks.File
                     Log.Logger = new LoggerConfiguration().WriteTo.File("errors.log").CreateLogger();
                     Log.Information("Unable to save data, logged from serilog");
                     throw ex;
