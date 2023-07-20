@@ -28,7 +28,7 @@ namespace AddressBook.PresentationLayer
                     //case 3: Search(); break;
                     //case 4: Delete(); break;
                     //case 5: Edit(); break;
-                    case 6: break;
+                    case 6: return;
                     default:
                         Console.WriteLine("Wrong choice...");
                         break;

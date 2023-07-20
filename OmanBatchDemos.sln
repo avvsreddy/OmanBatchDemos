@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIODemo1", "FileIODemo1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook", "AddressBook\AddressBook.csproj", "{9A5B5BFD-DFBA-4EC9-A50D-5ADC98C84A69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookWindowsApp", "AddressBookWindowsApp\AddressBookWindowsApp.csproj", "{1896A501-DC14-4EBF-8E9E-7277C8716D85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{9A5B5BFD-DFBA-4EC9-A50D-5ADC98C84A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A5B5BFD-DFBA-4EC9-A50D-5ADC98C84A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A5B5BFD-DFBA-4EC9-A50D-5ADC98C84A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1896A501-DC14-4EBF-8E9E-7277C8716D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1896A501-DC14-4EBF-8E9E-7277C8716D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1896A501-DC14-4EBF-8E9E-7277C8716D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1896A501-DC14-4EBF-8E9E-7277C8716D85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -168,6 +174,7 @@ Global
 		{C43F4089-7D78-4ED9-8980-FAB93159B247} = {9F16FE99-59A5-4028-9013-FAECBD23AEFC}
 		{5937B53C-190F-46BF-A212-5698FB52F721} = {BB32C676-9F4E-427D-B294-87B914F3848D}
 		{9A5B5BFD-DFBA-4EC9-A50D-5ADC98C84A69} = {BB32C676-9F4E-427D-B294-87B914F3848D}
+		{1896A501-DC14-4EBF-8E9E-7277C8716D85} = {BB32C676-9F4E-427D-B294-87B914F3848D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA13B4CC-3821-4F57-9D61-439614F9D82E}
