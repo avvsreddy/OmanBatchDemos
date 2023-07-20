@@ -17,21 +17,29 @@ namespace AddressBook.DataLayer
 
         public List<Contact> GetAll()
         {
+            StreamReader sr = null;
             List<Contact> list = new List<Contact>();
-            StreamReader sr = new StreamReader(file);
-
-            while (!sr.EndOfStream)
+            try
             {
-                Contact contact = new Contact();
-                string line = sr.ReadLine();
-                string[] data = line.Split(',');
-                contact.Name = data[0];
-                contact.Email = data[1];
-                contact.Mobile = data[2];
-                contact.City = data[3];
-                list.Add(contact);
+
+                sr = new StreamReader(file);
+
+                while (!sr.EndOfStream)
+                {
+                    Contact contact = new Contact();
+                    string line = sr.ReadLine();
+                    string[] data = line.Split(',');
+                    contact.Name = data[0];
+                    contact.Email = data[1];
+                    contact.Mobile = data[2];
+                    contact.City = data[3];
+                    list.Add(contact);
+                }
             }
-            sr.Close();
+            finally
+            {
+                sr.Close(); // must close with or without exp
+            }
             return list;
         }
 

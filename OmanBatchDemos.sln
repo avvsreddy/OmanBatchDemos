@@ -35,31 +35,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicArray3", "DynamicArr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainerTraineeCasestudy", "TrainerTraineeCasestudy\TrainerTraineeCasestudy.csproj", "{1C52F095-9437-4E52-87A2-83B263A6057A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo1", "InheritanceDemo1\InheritanceDemo1.csproj", "{5C782C2B-FCFB-41C0-BB2E-892550564F8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceDemo1", "InheritanceDemo1\InheritanceDemo1.csproj", "{5C782C2B-FCFB-41C0-BB2E-892550564F8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo2", "InheritanceDemo2\InheritanceDemo2.csproj", "{D1D10614-23C6-45E6-B6AE-44115ADB8832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceDemo2", "InheritanceDemo2\InheritanceDemo2.csproj", "{D1D10614-23C6-45E6-B6AE-44115ADB8832}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDELanguagesCasestudy", "IDELanguagesCasestudy\IDELanguagesCasestudy.csproj", "{0043C7C9-1E7E-46DC-8992-7D87BC7C3792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDELanguagesCasestudy", "IDELanguagesCasestudy\IDELanguagesCasestudy.csproj", "{0043C7C9-1E7E-46DC-8992-7D87BC7C3792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDELanguagesCasestudy2", "IDELanguagesCasestudy2\IDELanguagesCasestudy2.csproj", "{74C24991-9F39-4FE5-B718-8BADF5204C05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDELanguagesCasestudy2", "IDELanguagesCasestudy2\IDELanguagesCasestudy2.csproj", "{74C24991-9F39-4FE5-B718-8BADF5204C05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exception Handling", "Exception Handling", "{895490BF-B445-48B1-BCE4-933C8187C55D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandlingDemo1", "ExceptionHandlingDemo1\ExceptionHandlingDemo1.csproj", "{78F8BA4D-2A0F-4CBC-95D5-72F14555BBD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandlingDemo1", "ExceptionHandlingDemo1\ExceptionHandlingDemo1.csproj", "{78F8BA4D-2A0F-4CBC-95D5-72F14555BBD4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates", "Delegates", "{9F16FE99-59A5-4028-9013-FAECBD23AEFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo1", "DelegatesDemo1\DelegatesDemo1.csproj", "{1A016A70-B93B-4D13-8C65-125819D9245C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesDemo1", "DelegatesDemo1\DelegatesDemo1.csproj", "{1A016A70-B93B-4D13-8C65-125819D9245C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesCaseStudy1", "DelegatesCaseStudy1\DelegatesCaseStudy1.csproj", "{C43F4089-7D78-4ED9-8980-FAB93159B247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesCaseStudy1", "DelegatesCaseStudy1\DelegatesCaseStudy1.csproj", "{C43F4089-7D78-4ED9-8980-FAB93159B247}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "File Handling", "File Handling", "{BB32C676-9F4E-427D-B294-87B914F3848D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIODemo1", "FileIODemo1\FileIODemo1.csproj", "{5937B53C-190F-46BF-A212-5698FB52F721}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileIODemo1", "FileIODemo1\FileIODemo1.csproj", "{5937B53C-190F-46BF-A212-5698FB52F721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook", "AddressBook\AddressBook.csproj", "{9A5B5BFD-DFBA-4EC9-A50D-5ADC98C84A69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBook", "AddressBook\AddressBook.csproj", "{9A5B5BFD-DFBA-4EC9-A50D-5ADC98C84A69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookWindowsApp", "AddressBookWindowsApp\AddressBookWindowsApp.csproj", "{1896A501-DC14-4EBF-8E9E-7277C8716D85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBookWindowsApp", "AddressBookWindowsApp\AddressBookWindowsApp.csproj", "{1896A501-DC14-4EBF-8E9E-7277C8716D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO2", "FileIO2\FileIO2.csproj", "{07BA5766-49C0-4CB3-A4D8-0A5BCE48F356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSerializationDemo", "FileSerializationDemo\FileSerializationDemo.csproj", "{A89AB750-0CD9-43A5-8321-4E0C04809EBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +151,14 @@ Global
 		{1896A501-DC14-4EBF-8E9E-7277C8716D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1896A501-DC14-4EBF-8E9E-7277C8716D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1896A501-DC14-4EBF-8E9E-7277C8716D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BA5766-49C0-4CB3-A4D8-0A5BCE48F356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BA5766-49C0-4CB3-A4D8-0A5BCE48F356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BA5766-49C0-4CB3-A4D8-0A5BCE48F356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BA5766-49C0-4CB3-A4D8-0A5BCE48F356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89AB750-0CD9-43A5-8321-4E0C04809EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89AB750-0CD9-43A5-8321-4E0C04809EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89AB750-0CD9-43A5-8321-4E0C04809EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89AB750-0CD9-43A5-8321-4E0C04809EBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,6 +187,8 @@ Global
 		{5937B53C-190F-46BF-A212-5698FB52F721} = {BB32C676-9F4E-427D-B294-87B914F3848D}
 		{9A5B5BFD-DFBA-4EC9-A50D-5ADC98C84A69} = {BB32C676-9F4E-427D-B294-87B914F3848D}
 		{1896A501-DC14-4EBF-8E9E-7277C8716D85} = {BB32C676-9F4E-427D-B294-87B914F3848D}
+		{07BA5766-49C0-4CB3-A4D8-0A5BCE48F356} = {BB32C676-9F4E-427D-B294-87B914F3848D}
+		{A89AB750-0CD9-43A5-8321-4E0C04809EBD} = {BB32C676-9F4E-427D-B294-87B914F3848D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA13B4CC-3821-4F57-9D61-439614F9D82E}
