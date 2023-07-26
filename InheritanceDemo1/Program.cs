@@ -9,7 +9,7 @@
             // to access all person functionality
             Person p = new Person();
 
-            Customer c = new Customer();
+            //Customer c = new Customer();
 
 
         }
@@ -48,3 +48,4 @@
             public int Salary { get; set; }
         }
     }
+}
