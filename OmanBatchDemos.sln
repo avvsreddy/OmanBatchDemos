@@ -85,6 +85,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculatorLibrary", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculatorLibrary.TestProject", "SimpleCalculatorLibrary.TestProject\SimpleCalculatorLibrary.TestProject.csproj", "{1AA5A52D-2DAA-4E61-9368-08550A26BA4C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Employee Management System", "Employee Management System", "{836C3065-CB4D-4B41-8E40-89FF71DD6C4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{C8791572-51F0-49BC-810F-7DD16B891277}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{2BE99152-13AA-4B72-84B2-1082D0D57B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementSystem.DataLayerLibrary", "EmployeeManagementSystem.DataLayerLibrary\EmployeeManagementSystem.DataLayerLibrary.csproj", "{20CF51F8-6B58-4F9F-8290-46E5FC95E197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementSystem.ConsoleApp", "EmployeeManagementSystem.ConsoleApp\EmployeeManagementSystem.ConsoleApp.csproj", "{BCF8643E-4F39-42E9-BBA8-A04DE8A8790E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.MVCWebApplication", "EmployeeManagement.MVCWebApplication\EmployeeManagement.MVCWebApplication.csproj", "{A66A9BCA-8CA8-4C0A-8760-6D049A428003}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +219,18 @@ Global
 		{1AA5A52D-2DAA-4E61-9368-08550A26BA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AA5A52D-2DAA-4E61-9368-08550A26BA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AA5A52D-2DAA-4E61-9368-08550A26BA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CF51F8-6B58-4F9F-8290-46E5FC95E197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CF51F8-6B58-4F9F-8290-46E5FC95E197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CF51F8-6B58-4F9F-8290-46E5FC95E197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CF51F8-6B58-4F9F-8290-46E5FC95E197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF8643E-4F39-42E9-BBA8-A04DE8A8790E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF8643E-4F39-42E9-BBA8-A04DE8A8790E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF8643E-4F39-42E9-BBA8-A04DE8A8790E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF8643E-4F39-42E9-BBA8-A04DE8A8790E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66A9BCA-8CA8-4C0A-8760-6D049A428003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66A9BCA-8CA8-4C0A-8760-6D049A428003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66A9BCA-8CA8-4C0A-8760-6D049A428003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66A9BCA-8CA8-4C0A-8760-6D049A428003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -244,6 +268,11 @@ Global
 		{F9D1FAB8-AD21-4D41-B480-7D892E11C1E1} = {725730D5-2895-4DE7-A99D-36F5F513C248}
 		{6392951F-1E8F-4673-84BB-6D2475FD1F7C} = {644AFBE8-6BD2-4A41-BED9-2F8AAE41909D}
 		{1AA5A52D-2DAA-4E61-9368-08550A26BA4C} = {644AFBE8-6BD2-4A41-BED9-2F8AAE41909D}
+		{C8791572-51F0-49BC-810F-7DD16B891277} = {836C3065-CB4D-4B41-8E40-89FF71DD6C4D}
+		{2BE99152-13AA-4B72-84B2-1082D0D57B21} = {836C3065-CB4D-4B41-8E40-89FF71DD6C4D}
+		{20CF51F8-6B58-4F9F-8290-46E5FC95E197} = {2BE99152-13AA-4B72-84B2-1082D0D57B21}
+		{BCF8643E-4F39-42E9-BBA8-A04DE8A8790E} = {C8791572-51F0-49BC-810F-7DD16B891277}
+		{A66A9BCA-8CA8-4C0A-8760-6D049A428003} = {C8791572-51F0-49BC-810F-7DD16B891277}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA13B4CC-3821-4F57-9D61-439614F9D82E}
