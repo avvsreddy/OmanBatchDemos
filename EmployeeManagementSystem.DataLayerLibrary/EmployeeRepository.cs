@@ -52,7 +52,8 @@ namespace EmployeeManagementSystem.DataLayerLibrary
             // get the command
             IDbCommand cmd = conn.CreateCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "delete employees where empid = @eid";
+            cmd.CommandText = "dbo.sp_delete";
+            cmd.CommandType = CommandType.StoredProcedure;
 
             IDbDataParameter p1 = cmd.CreateParameter();
             p1.ParameterName = "@eid";
@@ -301,6 +302,36 @@ namespace EmployeeManagementSystem.DataLayerLibrary
             //SqlConnection conn = new SqlConnection();
             conn.ConnectionString = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
             return conn;
+        }
+
+
+        // keep data adapter here
+
+        SqlDataAdapter da = null;
+        public DataSet GetAllEmployeesDisconnected()
+        {
+            IDbConnection conn = GetConnection();
+            da = new SqlDataAdapter("select * from employees", conn as SqlConnection);
+            DataSet ds = new DataSet();
+            da.Fill(ds, "Employees");
+            return ds;
+        }
+
+        public void Update(DataSet ds)
+        {
+            //SqlCommand update = new("update sdsdfasdfasdfasdf");
+            //da.UpdateCommand = update;
+            //SqlCommand delete = new SqlCommand("delete sdfsdfdf");
+            //da.DeleteCommand = delete;
+
+            //SqlCommand insert = new SqlCommand("insert sdfsdfsdf ");
+            //da.InsertCommand = insert;
+
+            SqlCommandBuilder cb = new SqlCommandBuilder(da);
+
+            da.Update(ds.Tables["Employees"]);
+
+
         }
     }
 }

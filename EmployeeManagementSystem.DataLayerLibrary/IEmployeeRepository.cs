@@ -1,4 +1,6 @@
-﻿namespace EmployeeManagementSystem.DataLayerLibrary
+﻿using System.Data;
+
+namespace EmployeeManagementSystem.DataLayerLibrary
 {
     public interface IEmployeeRepository
     {
@@ -11,5 +13,9 @@
         List<Employee> GetEmployeesByExperience(int experience);
 
         void Edit(int empid, Employee employee);
+
+        DataSet GetAllEmployeesDisconnected();
+        void Update(DataSet ds);
+
     }
 }
