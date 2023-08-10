@@ -1,0 +1,12 @@
+﻿h1, h3 {
+    color: blue;
+    font-family: 'Brush Script MT';
+    font-size: 36px
+}
+
+.heading {
+    color: yellow;
+    background-color: black;
+    font-family: Arial;
+    font-size: 48px
+}

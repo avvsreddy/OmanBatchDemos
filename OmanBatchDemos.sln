@@ -127,6 +127,83 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI Layer", "UI Layer", "{BD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDALClassLibrary", "EFDALClassLibrary\EFDALClassLibrary.csproj", "{0CACF94A-3EBD-48AE-88F9-55989AA39324}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmployeeManagement", "EmployeeManagement", "{BCA8E695-E866-4F73-B2EA-75942102AF6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductsManagement", "ProductsManagement", "{5C61D747-D90E-4B17-840C-79AD240DDF6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsManagementApp", "ProductsManagementApp\ProductsManagementApp.csproj", "{5DA0C887-437F-42DB-8BAC-1A8EEE1F8C57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBFirstDemo", "DBFirstDemo", "{CAA7C658-792B-4EFB-9F43-DB32CC2B6EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBFirstProductsApp", "DBFirstProductsApp\DBFirstProductsApp.csproj", "{69A795CC-39FD-4A24-81EB-D98D2E3531DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cleint Side Web Programming Demo", "Cleint Side Web Programming Demo", "{43D716C8-9BD2-473C-8DDA-C5D7373C2656}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
+		HTMLPage2.html = HTMLPage2.html
+		StyleSheet1.css = StyleSheet1.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bootstrap", "bootstrap", "{797004B8-6E39-4EBB-B3A5-3B66E4C8AEC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{9E65B3CC-A284-4BAE-A8B3-F6D641258CD8}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.min.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.min.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.min.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.min.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.rtl.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.rtl.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.rtl.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.rtl.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.rtl.min.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.rtl.min.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.rtl.min.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-grid.rtl.min.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.min.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.min.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.min.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.min.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.rtl.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.rtl.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.rtl.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.rtl.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.rtl.min.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.rtl.min.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.rtl.min.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-reboot.rtl.min.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.min.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.min.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.min.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.min.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.rtl.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.rtl.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.rtl.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.rtl.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.rtl.min.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.rtl.min.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.rtl.min.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap-utilities.rtl.min.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.min.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.min.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.min.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.min.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.rtl.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.rtl.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.rtl.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.rtl.css.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.rtl.min.css = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.rtl.min.css
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.rtl.min.css.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.rtl.min.css.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{AAAD66FB-B234-4CD7-9B2F-BBEDCDEEA65D}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.bundle.js = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.bundle.js
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.bundle.js.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.bundle.js.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.bundle.min.js = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.bundle.min.js
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.bundle.min.js.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.bundle.min.js.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.esm.js = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.esm.js
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.esm.js.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.esm.js.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.esm.min.js = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.esm.min.js
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.esm.min.js.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.esm.min.js.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.js = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.js
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.js.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.js.map
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.min.js = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.min.js
+		C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.min.js.map = C:\Users\Venkat\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.min.js.map
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{8ADDC103-B7D9-4B8C-BCE3-E5E31DD337D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC Demos", "MVC Demos", "{F808D7D6-18B1-4DE5-B199-9A5BB8D54F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldWebApplication", "HelloWorldWebApplication\HelloWorldWebApplication.csproj", "{23080A6A-3BA2-43DA-97AD-B510BCB00A41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -301,6 +378,22 @@ Global
 		{0CACF94A-3EBD-48AE-88F9-55989AA39324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CACF94A-3EBD-48AE-88F9-55989AA39324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CACF94A-3EBD-48AE-88F9-55989AA39324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA0C887-437F-42DB-8BAC-1A8EEE1F8C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA0C887-437F-42DB-8BAC-1A8EEE1F8C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA0C887-437F-42DB-8BAC-1A8EEE1F8C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA0C887-437F-42DB-8BAC-1A8EEE1F8C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A795CC-39FD-4A24-81EB-D98D2E3531DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A795CC-39FD-4A24-81EB-D98D2E3531DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A795CC-39FD-4A24-81EB-D98D2E3531DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A795CC-39FD-4A24-81EB-D98D2E3531DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADDC103-B7D9-4B8C-BCE3-E5E31DD337D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADDC103-B7D9-4B8C-BCE3-E5E31DD337D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADDC103-B7D9-4B8C-BCE3-E5E31DD337D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADDC103-B7D9-4B8C-BCE3-E5E31DD337D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23080A6A-3BA2-43DA-97AD-B510BCB00A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23080A6A-3BA2-43DA-97AD-B510BCB00A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23080A6A-3BA2-43DA-97AD-B510BCB00A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23080A6A-3BA2-43DA-97AD-B510BCB00A41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -352,9 +445,19 @@ Global
 		{8C554E8B-EF02-406E-8A2A-CA50C27BD9EF} = {37820D99-F9C6-43B4-9E6A-C3539CDED4FE}
 		{F8B8BB82-B612-4B7E-88F0-DD5C38F3DA66} = {37820D99-F9C6-43B4-9E6A-C3539CDED4FE}
 		{B7EA90BE-1042-42C9-B96F-A8A0F095C3B9} = {BDAFF3A3-F0D7-49EB-A77A-6BEE6207A1D0}
-		{36BC061E-19C9-4107-AA54-7020F46EF14F} = {D56A0DD3-4067-4237-A441-247BC9A3038C}
-		{BDAFF3A3-F0D7-49EB-A77A-6BEE6207A1D0} = {D56A0DD3-4067-4237-A441-247BC9A3038C}
+		{36BC061E-19C9-4107-AA54-7020F46EF14F} = {BCA8E695-E866-4F73-B2EA-75942102AF6D}
+		{BDAFF3A3-F0D7-49EB-A77A-6BEE6207A1D0} = {BCA8E695-E866-4F73-B2EA-75942102AF6D}
 		{0CACF94A-3EBD-48AE-88F9-55989AA39324} = {36BC061E-19C9-4107-AA54-7020F46EF14F}
+		{BCA8E695-E866-4F73-B2EA-75942102AF6D} = {D56A0DD3-4067-4237-A441-247BC9A3038C}
+		{5C61D747-D90E-4B17-840C-79AD240DDF6F} = {D56A0DD3-4067-4237-A441-247BC9A3038C}
+		{5DA0C887-437F-42DB-8BAC-1A8EEE1F8C57} = {5C61D747-D90E-4B17-840C-79AD240DDF6F}
+		{CAA7C658-792B-4EFB-9F43-DB32CC2B6EAC} = {D56A0DD3-4067-4237-A441-247BC9A3038C}
+		{69A795CC-39FD-4A24-81EB-D98D2E3531DB} = {CAA7C658-792B-4EFB-9F43-DB32CC2B6EAC}
+		{797004B8-6E39-4EBB-B3A5-3B66E4C8AEC4} = {43D716C8-9BD2-473C-8DDA-C5D7373C2656}
+		{9E65B3CC-A284-4BAE-A8B3-F6D641258CD8} = {797004B8-6E39-4EBB-B3A5-3B66E4C8AEC4}
+		{AAAD66FB-B234-4CD7-9B2F-BBEDCDEEA65D} = {797004B8-6E39-4EBB-B3A5-3B66E4C8AEC4}
+		{8ADDC103-B7D9-4B8C-BCE3-E5E31DD337D9} = {43D716C8-9BD2-473C-8DDA-C5D7373C2656}
+		{23080A6A-3BA2-43DA-97AD-B510BCB00A41} = {F808D7D6-18B1-4DE5-B199-9A5BB8D54F2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA13B4CC-3821-4F57-9D61-439614F9D82E}

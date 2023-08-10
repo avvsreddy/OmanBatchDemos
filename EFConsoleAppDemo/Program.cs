@@ -10,9 +10,9 @@ namespace EFConsoleAppDemo
             EmployeeDBContext db = new EmployeeDBContext();
             // get all emp;
 
-            var emps = from e in db.Employees
-                       where e.Salary >= 60000
-                       select e;
+            //var emps = from e in db.Employees
+            //           where e.Salary >= 60000
+            //           select e;
 
 
 
