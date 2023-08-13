@@ -1,0 +1,41 @@
+﻿
+
+
+
+
+@model KnowledgeHubPortal.Domain.Entities.Category
+<div class="container mt-5">
+    <h1>Add a Category</h1>
+
+
+
+
+    <form method="post" action="Create">
+        <div class="mb-3">
+            <label for="categoryName" class="form-label">Category Name</label>
+            <input type="text" class="form-control" asp-for="Name">
+            <span asp-validation-for="Name"></span>
+            @*@Html.TextBoxFor(m=>m.Name)*@
+        </div>
+        <div class="mb-3">
+            <label for="categoryDescription" class="form-label">Category Description</label>
+            <textarea class="form-control" asp-for="Description" rows="4"></textarea>
+            <span asp-validation-for="Description"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+
+@*
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+*@
+
+
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"></partial>
+}
