@@ -20,6 +20,11 @@ namespace KnowledgeHubPortal.Domain.CategoryManager
             repo.CreateCategory(category);
         }
 
+        public void DeleteCategory(int id)
+        {
+            repo.DeleteCategory(id);
+        }
+
         public List<Category> GetAllCategories()
         {
             return repo.GetAllCategories();

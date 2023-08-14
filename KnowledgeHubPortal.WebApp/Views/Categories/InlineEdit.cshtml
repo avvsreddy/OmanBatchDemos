@@ -1,0 +1,36 @@
+﻿@model KnowledgeHubPortal.Domain.Entities.Category
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min (1).css" rel="stylesheet" />
+    <script src="https://unpkg.com/htmx.org@1.9.4"></script>
+    <div class="container">
+        
+        <form  hx-put="/Categories/Edit" hx-target="this" hx-swap="outerHTML" method="post">
+            <div class="row">
+
+                <div class="col col-md-4">
+
+                    <div class="form-group">
+                        <input type="hidden" asp-for="CategoryId" />
+                    </div>
+                    <div class="form-group">
+
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="form-group">
+
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+

@@ -8,5 +8,7 @@ namespace KnowledgeHubPortal.Domain.Repository
         void UpdateCategory(Category category);
         Category GetCategory(int id);
         List<Category> GetAllCategories();
+
+        void DeleteCategory(int id);
     }
 }

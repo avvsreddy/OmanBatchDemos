@@ -1,0 +1,11 @@
+﻿@model KnowledgeHubPortal.Domain.Entities.Category
+
+
+<h1>Confirm Delete</h1>
+<hr>
+
+<h3>Wish to delete @Model.Name ?</h3>
+
+<a asp-action="ConfirmDelete" asp-controller="Categories" asp-route-id="@Model.CategoryId" class="btn btn-danger">Yes</a>
+<a asp-action="Index" asp-controller="Categories" class="btn btn-info">No</a>
+

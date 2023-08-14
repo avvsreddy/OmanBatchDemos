@@ -13,6 +13,12 @@ namespace KnowledgeHubPortal.Data
             db.SaveChanges();
         }
 
+        public void DeleteCategory(int id)
+        {
+            db.Categories.Remove(db.Categories.Find(id));
+            db.SaveChanges();
+        }
+
         public List<Category> GetAllCategories()
         {
             return db.Categories.ToList();
