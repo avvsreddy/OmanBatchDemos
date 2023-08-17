@@ -50,7 +50,7 @@ namespace KnowledgeHubPortal.WebApp.Controllers
             //ViewData["Msg"] = category.Name;
 
 
-            return View("Thanks");
+            return RedirectToAction("Index");
         }
 
         public IActionResult Delete(int id)
@@ -75,18 +75,25 @@ namespace KnowledgeHubPortal.WebApp.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var catToEdit = manageCategory.GetCategory(id);
-            return PartialView("InlineEdit", catToEdit);
+            //var catToEdit = manageCategory.GetCategory(id);
+            var categories = manageCategory.GetAllCategories();
+            ViewBag.CategoryID = id;
+            return View("NewInlineEdit", categories);
         }
 
         [HttpPost]
         public IActionResult Edit(Category catToEdit)
         {
             // validate
-            if (!ModelState.IsValid)
-                return View();
+            //if (!ModelState.IsValid)
+            //{
+            //    var categories = manageCategory.GetAllCategories();
+            //    ViewBag.CategoryID = id;
+            //    return View("NewInlineEdit", categories);
+            //}
 
             manageCategory.UpdateCategory(catToEdit);
+            TempData["Msg"] = $"Category ID {catToEdit.CategoryId} updated...";
             return RedirectToAction("Index");
         }
     }

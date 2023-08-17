@@ -1,4 +1,5 @@
 using KnowledgeHubPortal.Data;
+using KnowledgeHubPortal.Domain.ArticlesManager;
 using KnowledgeHubPortal.Domain.CategoryManager;
 using KnowledgeHubPortal.Domain.Repository;
 using KnowledgeHubPortal.WebApp.Data;
@@ -16,6 +17,8 @@ namespace KnowledgeHubPortal.WebApp
             // Add services to the container.
 
             builder.Services.AddScoped<IManageCategory, ManageCategory>();
+            builder.Services.AddScoped<IManageArticle, ManageArticle>();
+            builder.Services.AddScoped<IArticlesRepository, ArticlesRepository>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");

@@ -1,0 +1,64 @@
+﻿@model List<KnowledgeHubPortal.Domain.Entities.Category>
+<h2>Manage Categories</h2>
+<hr />
+
+<a asp-action="Create" class="btn btn-primary">Create New Category</a>
+<br />
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>@TempData["Msg"]</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+
+<table class="table table-bordered">
+    <tr>
+        <td>Name</td>
+        <td>Description</td>
+        <td>Delete</td>
+        <td>Edit</td>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        if (ViewBag.CategoryID == item.CategoryId)
+        {
+            <tr>
+                <form action="Edit" method="post">
+                    <input type="hidden" name="CategoryId" value="@item.CategoryId" />
+                <td><input type="text" class="form-control" name="Name" value="@item.Name" /></td>
+                <td><textarea class="form-control" name="Description">@item.Description</textarea>  </td>
+                <td>
+                    <input type="submit" class="form-control btn btn-success" name="btnSubmit" value="Save" />
+                </td>
+                <td>
+                    <a asp-action="Index" asp-controller="Categories" class="btn btn-warning">Cancel</a>
+                </td>
+                </form>
+            </tr>
+        }
+        else
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>
+                    <a asp-action="ConfirmDelete"
+                       asp-route-id="@item.CategoryId"
+                       class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CategoryId" class="btn btn-primary">Edit</a>
+                </td>
+            </tr>
+        }
+
+
+
+    }
+</table>
+
+
+
+
+
