@@ -4,6 +4,7 @@ using KnowledgeHubPortal.Domain.Entities;
 using KnowledgeHubPortal.WebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.OutputCaching;
 
 namespace KnowledgeHubPortal.WebApp.Controllers
 {
@@ -18,7 +19,8 @@ namespace KnowledgeHubPortal.WebApp.Controllers
             this.categoriesManager = categoriesManager;
             this.articlesManager = articlesManager;
         }
-
+        [OutputCache(Duration = 100)]
+        [ResponseCache]
         public IActionResult Index() // this is for browse articles 
         {
             return View(articlesManager.GetArticlesForBrowse());

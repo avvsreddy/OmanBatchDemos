@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<h1>Employee data </h1>
+
+    <div id="employee-data"></div>
+
+    <script>
+$(document).ready(function() {
+    // Make the AJAX call to the API endpoint
+    $.ajax({
+        url: "https://localhost:44307/api/EmployeesAPI/1",
+        type: "GET",
+        dataType: "json",
+        success: function(data) {
+            // Display the employee data on the page
+            alert(data);
+            $("#employee-data").html(data);
+        },
+        error: function(xhr, status, error) {
+            console.log("Error:", error);
+        }
+    });
+});
+    </script>
+
